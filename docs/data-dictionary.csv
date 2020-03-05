@@ -1,0 +1,129 @@
+Variable,Source,Category,Label_Description,Type,Format
+fil_year,ecourts,Case Details,Filing Year,Date,YYYY
+jcode,ecourts,Case Details,,integer,
+date_of_decision,ecourts,Case Status,Decision Date,Date,YYYY-MM-DD
+reg_year,ecourts,Case Details,Registration Year,Date,YYYY
+link_cases,ecourts,,,,
+orders,ecourts,History of case hearing,Order details,Group,
+no.,CDL,History of case hearing,Order Number,integer,
+language,CDL,History of case hearing,Order language,character,
+word_count,CDL,History of case hearing,Number of words in an order,integer,
+link,ecourts,History of case hearing,Link to the order on eCourts,URL,
+error,CDL,History of case hearing,Error message,character,
+date,ecourts,History of case hearing,Order Date,Date,DD-MM-YYYY
+path,CDL,History of case hearing,Order file path in directory,character,
+lower_court_dec_dt,ecourts,,,,
+fir_year,ecourts,FIR Details,FIR Year,Date,YYYY
+pet_adv,ecourts,Petitioner and Advocate,Petitioner Advocate,character,
+type_name,ecourts,Case Details,Case Type,character,categorical
+res_name,ecourts,Respondent and Advocate,Respondent Name,character,
+petNameAdd,ecourts,Petitioner and Advocate,Petitioner Name,character,
+lower_court_code,ecourts,,,,
+res_adv,ecourts,Respondent and Advocate,Respondent Advocate,character,
+petparty_name,ecourts,Petitioner and Advocate,Petitioner party name,character,
+goshwara_no,ecourts,,,,
+purpose_next,ecourts,,,,
+disp_name,ecourts,Case Details,Disposal Name,character,
+est_code,ecourts,Case Details,Establishment code,character,categorical
+archive,ecourts,,,,
+state_name,ecourts,Case Details,State name,character,categorical
+date_last_list,ecourts,,,,
+cino,ecourts,Case Details,Case identification number (CNR),character,
+under_act4,ecourts,,,,
+state_code,ecourts,Case Details,State code,character,categorical
+under_sec2,ecourts,,,,
+under_sec3,ecourts,,,,
+hide_res_name,ecourts,Respondent and Advocate,Hide respondent name,character,categorical
+under_sec1,ecourts,,,,
+court_no,ecourts,Case Details,Court Number,character,categorical
+reg_no,ecourts,Case Details,Registration number,character,
+fil_no,ecourts,Case Details,Filing Number (Used to search a case on eCourts),character,
+complex_code,ecourts,Case Details,Court complex code,character,
+hide_pet_name,ecourts,Petitioner and Advocate,Hide petitioner name,character,categorical
+dt_regis,ecourts,Case Details,Registration Date,Date,YYYY-MM-DD
+main_case_no,ecourts,,,,
+res_legal_heir,ecourts,Respondent and Advocate,Petitioners legal heir,character,
+lower_court,ecourts,,,,
+subordinate_court,ecourts,Subordinate Court Info,Subordinate Court Info,Group,
+Court Number,ecourts,Subordinate Court Info,court number of subordinate court,character,categorical
+Court Name,ecourts,Subordinate Court Info,name of subordinate court,character,
+Case Number,ecourts,Subordinate Court Info,case number in subordinate court,character,
+Year,ecourts,Subordinate Court Info,year in which the case was in subordinate court,Date,YYYY
+Case Decision Date,ecourts,Subordinate Court Info,date of decision from subordinate court,Date,DD-MM-YYYY
+ia_filings,ecourts,IA filing details,IA filing details,Group,
+IA Number,ecourts,IA filing details,number of interlocutory application (IA),character,
+Party,ecourts,IA filing details,name of the party who has filed IA,character,
+Date of Filing,ecourts,IA filing details,date of filing of IA,Date,DD-MM-YYYY
+Next Date,ecourts,IA filing details,date on which IA was heard,Date,DD-MM-YYYY
+IA Status,ecourts,IA filing details,status of IA,character,categorical
+date_next_list,ecourts,,,,
+str_error,ecourts,,,,
+desgcode,ecourts,,,,
+res_status,ecourts,,,,
+date_of_filing,ecourts,Case Details,Date of filing,Date,YYYY-MM-DD
+under_act3,ecourts,,,,
+under_act2,ecourts,,,,
+under_act1,ecourts,,,,
+main_matter_cino,ecourts,,,,
+disp_nature,ecourts,Case Details,Nature of disposal,character,categorical
+court_code,ecourts,Case Details,Court code,character,categorical
+purpose_name,ecourts,,,,
+under_sec4,ecourts,,,,
+fir_no,ecourts,,,,
+str_error1,ecourts,,,,
+judgment,ecourts,Judgement,Judgement details,Group,
+no.,CDL,Judgement,Judgement number,integer,categorical
+language,CDL,Judgement,Judgement language,character,categorical
+word_count,CDL,Judgement,Number of words in a judgement,integer,
+link,ecourts,Judgement,Link to the judgement on eCourts,URL,
+error,ecourts,Judgement,Error message as seen on eCourts if the judgement is not uploaded,character,
+date,ecourts,Judgement,Date of judgement,Date,DD-MM-YYYY
+path,CDL,Judgement,Judgement file path in directory,character,
+police_st_code,ecourts,FIR Details,Police Station code,character,categorical
+district_code,ecourts,Case Details,District code,character,categorical
+courtno,ecourts,Case Details,Court number,character,categorical
+writinfo,ecourts,,,,
+ldesgname,ecourts,,,,
+case_no,ecourts,Case Details,Case number,character,
+sub_matter,ecourts,,,,
+date_first_list,ecourts,,,,
+desgname,ecourts,Case Details,Judge designation,character,categorical
+pet_name,ecourts,Case Details,Petitioner Name,character,
+processes,ecourts,Processes,Processes,Group,
+Process id,ecourts,Processes,Process ID (Process (in some cases Summons) issued to any witnesses directing him to attend or to produce any document or other thing),character,
+Process Date,ecourts,Processes,Process Date (Date on which such process has been issued),Date,YYYY-MM-DD
+Process title,ecourts,Processes,Process Title (Title under which the process have been issued),character,
+Party name,ecourts,Processes,Party Name (Name of the person to whom the process has been issued),character,
+Issued Process,ecourts,Processes,Issued Process (Number of processes effectively issued),character,
+resparty_name,ecourts,Respondent and Advocate,Respondent party name,character,
+fir_details,ecourts,FIR Details,Fir Details,Group,
+no.,ecourts,FIR Details,FIR number,character,
+police_station,ecourts,FIR Details,Police Station name,character,categorical
+year,ecourts,FIR Details,FIR year,Date,YYYY
+main_matter,ecourts,,,,
+acts,ecourts,Act Details,Act Details,Group,
+sections,ecourts,Act Details,Section ID,character,categorical
+act,ecourts,Act Details,Act ID,character,categorical
+court_name,ecourts,Case Details,court name,character,categorical
+transfer_est_flag,ecourts,,,,
+resNameAdd,ecourts,,,,
+pet_status,ecourts,,,,
+transfer,ecourts,Transfer Details,Transfer Details,Group,
+Transfer Date,ecourts,Transfer Details,Date of transfer,Date,YYYY-MM-DD
+From Court No. and Judge,ecourts,Transfer Details,Transfer – From Court Number and Judge details,character,
+To Court No. and Judge,ecourts,Transfer Details,Transfer – To Court Number and Judge details,character,
+district_name,ecourts,Case Details,Court district name,character,categorical
+pet_legal_heir,ecourts,Petitioner and Advocate,Petitioner Legal Heir,character,
+history,ecourts,Case History,Case History,Group,
+Judge,ecourts,Case History,Judge designation,character,categorical
+Hearing Date,ecourts,Case History,Case hearing date,Date,DD-MM-YYYY
+Business On Date,ecourts,Case History,Business on Date,Date,DD-MM-YYYY
+business_details,ecourts,Business Details,Business Details,Group,
+Next Purpose,ecourts,Business Details,Next purpose of hearing,character,
+Business,ecourts,Business Details,Purpose of hearing,character,
+Presentee,ecourts,Business Details,Presentee Name,character,
+Nature of Disposal,ecourts,Business Details,Nature of disposal,character,
+Next Hearing Date,ecourts,Business Details,Next hearing date,Date,DD-MM-YYYY
+Reason for Adjournment,ecourts,Business Details,Reason for Adjournment,character,
+Disposal Date,ecourts,Business Details,Case disposal date,Date,DD-MM-YYYY
+Purpose of hearing,ecourts,Case History,Purpose of current hearing,character,
