@@ -1,7 +1,0 @@
----
-title: "pocso-delhi-data-report"
-author: "CivicDataLab"
-date: "3/5/2020"
-output: html_document
----
-

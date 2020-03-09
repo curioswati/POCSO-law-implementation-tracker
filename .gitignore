@@ -39,7 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 # Data
-data/
+data/sample/
 
 # Mac
 .DS_Store
