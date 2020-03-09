@@ -1,0 +1,14 @@
+Task,Status
+Finalize the scope (data mining+platform development) of the project,Done
+Onboard the team at HAQ to internal project management tools,Done
+Development of the language platform for annotating orders and judgements,Done
+Setting up an Advisory Committee for the project,Done
+Advisory Board Meeting 1,Done
+Build data mining infrastructure and develop process to mine data from Ecourts,Started
+Develop data models to store and process data mined from the ecourts platform,Started
+Using the language platform to annotate judgements,Done
+"Develop the Privacy, Ethics and Security framework for sharing and working with child-rights cases",Pending
+Develop an editorial process to publish and share research and other development related stories as part of the tracker,Pending
+Scale the initial research to all identified geographies,Started
+"Develop a data validation mechanism to verify tags, and other extracted entities from unstructured data",Started
+"Identify collaborations, partnerships and research grants to fund the research and development for the next phase of the project",Started
