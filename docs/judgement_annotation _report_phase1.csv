@@ -1,0 +1,51 @@
+id,variable,pattern,#annotations,next-steps,Challenges,Difficulty
+48,Judge,"Always at the start of the doc. The name is mostly preceded with ""In the court of"" ",74,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+49,Act,Has a limited set of values.,813,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+50,Section,Has limited number of section numbers. Naming patterns can be used to identify the sections at scale,898,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+51,Age of Victim,No definite patterns. Different judgements have a different ways to hint towards the age.,100,"Analyse varioes ways of representation of age and automate the identification/ extractoin for further verification.
+",Has few patterns(aged about or prosecutrix of age or date of Birth followed by date). in cases where it is used mentioned differently need further analysis and algorithms to extract the informaion.,Very Hard
+52,gender of Victim,Looking for the word prosecutrix to identify the female victim.,59,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",Going with the word prosecutrix for now. Need to find the wrongly identified in the validation pipeline,Medium
+53,Disability,"Has a finite set of words.
+",5,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",Potential for identifing just the subset. Should create a pool of words to identify and disability.,Medium
+54,Relationship,No definite patterns.,89,Explore with more annotations,There are a variedways this being represented.,Very Hard
+55,Crime Scene,No definite patterns,55,Employ few algorithms to determine the feasibility of extracting the scene.,There are a variedways this being represented.,Very Hard
+56,Fine Imposed,Follows pattern. Can be automated,16,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+57,Victim Compensation,Very few values. Need more anootations to get patterns,5,"Annotate more judgements to find patterns
+","Identifying the pool of judgements with victim Compensation details
+",Medium
+59,Final Compensation,Very few values. Need more anootations to get patterns,6,"Annotate more judgements to find patterns
+","Identifying the pool of judgements with Final Compensation details
+",Medium
+60,Convction scentence,Follows some pattern. Need more annotations to automate. Weather convicted or not can be found using patterns,39,Split identification to two steps. 1. Identify weather convicted or not. 2. Explore algorithms to find the convicted sentence in the identified judgements. ,"Need to split into two for identification. Better patterns with more annotaions and verification. 
+",Easy
+61,Acqittal,Acquitted or not follows pattern. ,50,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+62,Nature of Offense,Has finate set of values. Can be automated.,66,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",NA,Easy
+63,Final Order,No identifyable pattern. Need more exploration,58,"Annotate more and explore the annotations to identify patterns. 
+",Has varied patterns in existimg annotations. Annotate and analyse more to employ language usage based algorithms.,Very Hard
+64,Accused Age,Medium difficulty to find this. Need more annotations to find patterns.,20,"Annotate more and explore the annotations to identify patterns. 
+","There are different ways this being represented. Need to analyse more and use avrious algorithms to properly identify the accused and corresponding age 
+",Very Hard
+65,"Accused Gender
+",Need multiple algorithms to automate this. Also needs more annotations,17,"Annotate more and explore the annotations to identify patterns. 
+","There are different ways this being represented. Need to analyse more and use avrious algorithms to properly identify the accused and corresponding gender 
+",Very Hard
+68,FSL,Need more annotations and usecases identified.,2,"Annotate more and explore the annotations to identify patterns. 
+","Identifying the pool of judgements with FSL details
+",Hard
+69,Victim complainaint relationship,"
+Usually comes at the start of the judgement. Need more annotations to determine actual patterns and automate",23,"Annotate more and explore the annotations to identify patterns. 
+",Fewer annotations,Hard
+70,Discharged,Has few annotations but follows specific pattern. Can be automated and need to be verified if automated.,3,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",Potential for identifing the sudset. Should create a pool of words to identify and disability.,Easy
+71,Victim-turning-hostile,Has the word hostile in all the annotaions. Need to verify with negative cases.,24,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",Potential for identifing the sudset. Should create a pool of words to identify and disability.,Easy
+72,victim-pregnancy,Has the word pregnant in all the annotaions. Need to verify with negative cases.,5,"Extend the identifiation to all Delhi judgements and add part of verification pipeline
+",Potential for identifing the sudset. Should create a pool of words to identify and disability.,Easy
