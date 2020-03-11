@@ -1,10 +1,11 @@
 ---
 title: "Law Implementation Tracker | POCSO | Project Report"
-author: "CivicDataLab"
+author: "CivicDataLab | HAQ"
 date: "3/9/2020"
 output: 
   ioslides_presentation:
     widescreen: true
+    logo: ../assets/img/CDL_Primary_Logo.png
 ---
 
 ```{r setup, include=FALSE}
