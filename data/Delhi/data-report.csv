@@ -1,5 +1,5 @@
 "State","District","courtLink","courtID","Total Cases","Pending Cases","Disposed Cases","Total Judgements","Total Judgements in English","Average word length in a judgement","Total Cases with Judgements","Total Disposed cases without Judgements"
-"Delhi","Central Delhi","https://districts.ecourts.gov.in/centraldelhi",28,"","","","","","","",""
+"Delhi","Central Delhi","https://districts.ecourts.gov.in/centraldelhi",28,"1232","596","636","51","36","2164.96","51",585""
 "Delhi","East Delhi","https://districts.ecourts.gov.in/eastdelhi",29,"","","","","","","",""
 "Delhi","New Delhi","https://districts.ecourts.gov.in/newdelhi",30,"","","","","","","",""
 "Delhi","North East Delhi","https://districts.ecourts.gov.in/northeast",31,"","","","","","","",""
